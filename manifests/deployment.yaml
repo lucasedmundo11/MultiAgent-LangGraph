@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: genai-api
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: genai-api
+  template:
+    metadata:
+      labels:
+        app: genai-api
+    spec:
+      containers:
+      - name: genai-api
+        image: genai_api:1.0
+        ports:
+        - containerPort: 5001
