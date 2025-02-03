@@ -80,7 +80,7 @@ MultiAgent-LangGraph/
 ├── docs/
 │   ├── README.md                 # Documentação do projeto
 │   ├── graph architecture.png    # Diagrama da arquitetura do LangGraph
-│   ├── architecture.png          # Diagrama da arquitetura
+│   ├── system architecture.png   # Diagrama da arquitetura AWS
 │   └── api-docs.md               # Documentação detalhada da API
 ├── .gitignore                    # Ignorar arquivos desnecessários no Git
 ├── requirements.txt              # Dependências do projeto
@@ -162,7 +162,7 @@ O fluxo entre os agentes está representado no arquivo `docs/graph architecture.
 ### 2. **Diagrama de Arquitetura**
 O fluxo da solução está representado no arquivo `docs/architecture.png`.
 
-![Diagrama de Arquitetura](./docs/architecture.png)
+![Diagrama de Arquitetura](./docs/system%20architecture.png)
 
 ### 3. **Documentação da API**
 A documentação detalhada da API pode ser encontrada em `docs/api-docs.md`.
