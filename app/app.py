@@ -53,7 +53,7 @@ def api():
                 )
             ],
         },
-        {"recursion_limit": 150},
+        {"recursion_limit": 10},
     )
     logger.debug(f"Response: {response}")
 
